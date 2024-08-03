@@ -19,13 +19,9 @@
 
 
 
-
 | Matrícula | Aluno                             |
-
 | --------- | --------------------------------- |
-
 | 211061832 | Harleny Angéllica Araújo de Sousa |
-
 | 211061331 | Alana Gabriele Amorim Silva       |
 
 
