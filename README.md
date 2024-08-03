@@ -39,28 +39,22 @@ Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode
 
 ## Questões
 
-
-
-
-Em andamento.
-
+| Nome                                                                                                                                        | Nível   |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                              | Difícil |
 
 
 
 ## Vídeo
 
 
-
-
-
+Em andamento.
 
 
 ## Screenshots
 
 
-
-
-
+Em andamento.
 
 
 ## Instalação
