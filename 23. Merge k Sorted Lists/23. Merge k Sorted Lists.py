@@ -15,3 +15,12 @@ class Solution:
         head = ListNode(0)  # nó cabeça
         current = head  # ponteiro atual
         
+        # Loop até a heap ficar vazia
+        while heap:
+            val, i, node = heappop(heap)
+            current.next = node
+            current = current.next
+            if node.next:
+                heappush(heap, (node.next.val, i, node.next))
+        
+        return head.next
