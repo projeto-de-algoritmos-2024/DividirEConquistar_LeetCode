@@ -41,8 +41,8 @@ Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode
 
 | Nome                                                                                                                                        | Nível   |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                              | Difícil |
-
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                 | Difícil |
+| [1985. Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)     | Média   |
 
 
 ## Vídeo
@@ -53,9 +53,34 @@ Em andamento.
 
 ## Screenshots
 
+### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) 
 
-Em andamento.
+**Caso 1:**
 
+![](https://github.com/user-attachments/assets/8ae6558c-56ec-444f-93c1-4b602c01ff1f)<br>
+
+**Caso 2:**
+
+![](https://github.com/user-attachments/assets/e84efbc0-93ac-42be-83a8-a56bddd3ad15)<br>
+
+**Caso 3:**
+
+![](https://github.com/user-attachments/assets/cc203c2b-3022-4b59-af1b-9120cae8788f)<br>
+
+### [1985. Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)
+
+**Caso 1:**
+
+![](https://github.com/user-attachments/assets/91106950-56c9-4e3f-9bbe-35f912051a68)<br>
+
+
+**Caso 2:**
+
+![](https://github.com/user-attachments/assets/0c4689a0-72cd-4d42-affc-e723b103f480)<br>
+
+**Caso 3:**
+
+![](https://github.com/user-attachments/assets/0a73776d-6e5b-47d5-9ee9-3150b983acc7)<br>
 
 ## Instalação
 
