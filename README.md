@@ -29,7 +29,7 @@ Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode
 
 ## Vídeo
 
-Em andamento.
+[Vídeo aqui](https://youtu.be/exxAk9ODIlM)
 
 ## Screenshots
 
@@ -61,8 +61,6 @@ Em andamento.
 
 ![](https://github.com/user-attachments/assets/0a73776d-6e5b-47d5-9ee9-3150b983acc7)<br>
 
-<<<<<<< HEAD
-
 ### [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/description/)
 
 **Caso 1:**
@@ -71,7 +69,7 @@ Em andamento.
 
 **Caso 2:**
 
-# ![](images/2.png)<br>
+![](images/2.png)<br>
 
 ### ![4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)<br>
 
@@ -92,8 +90,6 @@ Em andamento.
 **Caso 2:**
 
 ![](https://github.com/user-attachments/assets/7585b74c-6e84-460c-ac57-0d7784fe9c0a)<br>
-
-> > > > > > > 0ffb5189008cc832c0c428c97d52bd5396e13218
 
 ## Instalação
 
