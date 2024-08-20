@@ -1,31 +1,39 @@
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        a, b = nums1, nums2
-        total = len(nums1) + len(nums2)
-        metade = total // 2
 
-        if len(b)< len(a):
-            a, b = b, a
+        # se nums1 for maior que nums2, troca
+        if len(nums1) > len(nums2):
+            nums1, nums2 = nums2, nums1 
 
-        l, r = 0, len(a) - 1
+        x, y = len(nums1), len(nums2)
+        low, high = 0, x
+  
+        # loop até ate chegar a 0
+        while low <= high:
+            # partição de nums1 e nums2 
+            partitionX = (low + high) // 2
+            partitionY = (x + y + 1) // 2 - partitionX
 
-        while True: 
-            i = (1 + r) // 2
-            j = metade - i - 2
+            # os valores máximos e mínimos das partições
+            maxX = float('-inf') if partitionX == 0 else nums1[partitionX - 1]
+            minX = float('inf') if partitionX == x else nums1[partitionX]
+            
+            maxY = float('-inf') if partitionY == 0 else nums2[partitionY - 1]
+            minY = float('inf') if partitionY == y else nums2[partitionY]
 
-            a_esquerda = a [i] if i >= 0 else float("inf")
-            a_direita = a [i + l] if (i + l) < len(a) else float("inf")
-            b_esquerda = n[j] if j >= 0 else float ("-inf")
-            b_direita = b[j + l] if (j +l) < len(b) else float('inf')
-
-            if a_esquerda < b_direita and b_esquerda <= a_direita:
-                if total % 2:
-                    return min(a_direita, b_direita)
-                
-                return (max(a_esquerda, b_esquerda) + min(a_direita, b_direita)) /2
-
-            elif a_esquerda > b_direita:
-                r = i -1
-
+            # verificar se a partição tá correta
+            if maxX <= minY and maxY <= minX:
+                # se a soma dos tamanhos dos arrays for par, a mediana é a média dos maiores dos menores valores
+                if (x + y) % 2 == 0:
+                    return (max(maxX, maxY) + min(minX, minY)) / 2
+                # senão a mediana é o maior dos menores valores
+                else:
+                    return max(maxX, maxY)
+            elif maxX > minY:
+                #  ajusta a partição em `nums1` para a esquerda
+                high = partitionX - 1
             else:
-                l = i+1
+                #  ajusta a  partição em `nums1` para a direita
+                low = partitionX + 1
+
+        raise ValueError("Inválida")
