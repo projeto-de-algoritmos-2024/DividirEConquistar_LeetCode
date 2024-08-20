@@ -1,6 +1,6 @@
 class Solution:
     def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:
-        mod = 10*9 + 7 
+        mod = 10**9 + 7 
         
         dp = [1] + [0] * k
         
