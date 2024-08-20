@@ -1,5 +1,5 @@
 class Solution:
-    def numberOfPermutations(self, n: int, requirements: List[List[int]]) -> int:
+    def numberOfPermutations(self, n: int, k: int) -> int:
         mod = 10**9 + 7  # Define o valor do módulo para manter os números dentro dos limites de inteiros
         
         # Tabela dp representando a contagem de pares inversos para o número atual de inteiros
