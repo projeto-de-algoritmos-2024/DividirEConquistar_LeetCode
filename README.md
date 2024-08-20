@@ -1,59 +1,37 @@
 # Execícios do Leetcode
 
-
-
-
 **Número da Lista**: 4<br>
 
 **Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
-
-
-
 ## Alunos
 
-
-
-
 - Dupla 6
-
-
 
 | Matrícula | Aluno                             |
 | --------- | --------------------------------- |
 | 211061832 | Harleny Angéllica Araújo de Sousa |
 | 211061331 | Alana Gabriele Amorim Silva       |
 
-
-
-
 ## Sobre
 
-
-
-
-Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode.com/problemset/?search=graph&page=1&sorting=W3t9XQ%3D%3D) sobre grafos utilizando a linguagem de programação Python. Abaixo, estão listadas as questões selecionadas, com seus respectivos níveis de dificuldade e vídeos explicativos da resolução.
-
-
-
+Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode.com/problemset/?search=graph&page=1&sorting=W3t9XQ%3D%3D) sobre dividir e conquistar utilizando a linguagem de programação Python. Abaixo, estão listadas as questões selecionadas, com seus respectivos níveis de dificuldade e vídeos explicativos da resolução.
 
 ## Questões
 
-| Nome                                                                                                                                        | Nível   |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                                 | Difícil |
-| [1985. Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/)     | Média   |
-
+| Nome                                                                                                                                    | Nível   |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)                                             | Difícil |
+| [1985. Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/description/) | Média   |
+| [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/description/)                                          | Difícil |
 
 ## Vídeo
 
-
 Em andamento.
-
 
 ## Screenshots
 
-### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) 
+### [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)
 
 **Caso 1:**
 
@@ -73,7 +51,6 @@ Em andamento.
 
 ![](https://github.com/user-attachments/assets/91106950-56c9-4e3f-9bbe-35f912051a68)<br>
 
-
 **Caso 2:**
 
 ![](https://github.com/user-attachments/assets/0c4689a0-72cd-4d42-affc-e723b103f480)<br>
@@ -82,25 +59,23 @@ Em andamento.
 
 ![](https://github.com/user-attachments/assets/0a73776d-6e5b-47d5-9ee9-3150b983acc7)<br>
 
+### [629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/description/)
+
+**Caso 1:**
+
+![](images/1.png)<br>
+
+**Caso 2:**
+
+![](images/2.png)<br>
+
 ## Instalação
-
-
-
 
 **Linguagem**: Python3 <br>
 
-
-
-
 - Necessário ter o Python instalado.
 
-
-
-
 ## Uso
-
-
-
 
 ```
 
@@ -108,12 +83,6 @@ python3 "nome-do-arquivo"
 
 ```
 
-
-
-
 ## Outros
-
-
-
 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.

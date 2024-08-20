@@ -1,8 +1,8 @@
 class Solution:
     def kInversePairs(self, n: int, k: int) -> int:
-        mod = 10**9 + 7  # Define o valor do módulo para manter os números dentro dos limites de inteiros
+        mod = 10**9 + 7  # valor do módulo para manter os números dentro dos limites de inteiros
         
-        # Tabela dp representando a contagem de pares inversos para o número atual de inteiros
+        # A contagem de pares inversos para o número atual de inteiros
         dp = [1] + [0] * k
         
         # Array de soma prefixada para otimizar o loop interno. O tamanho é k+2 para facilitar o acesso e ser 1-indexado
