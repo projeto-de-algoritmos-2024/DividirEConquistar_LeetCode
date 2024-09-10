@@ -29,7 +29,7 @@ Este projeto tem como objetivo resolver questões do [LeetCode](https://leetcode
 
 ## Vídeo
 
-[Vídeo aqui](https://youtu.be/exxAk9ODIlM)
+[Vídeo aqui](https://www.youtube.com/watch?v=ymMR_TjOrJM&ab_channel=AlanaGabriele)
 
 ## Screenshots
 
